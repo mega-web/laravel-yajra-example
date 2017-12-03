@@ -19,4 +19,10 @@ Route::get('table-1', 'DatatablesController@index');
 
 Route::get('anydata', 'DatatablesController@anyData')->name('anydata');
 
+
+//just for redirect table-2
+Route::get('table-2', function () {
+    return redirect('crud');
+});
+
 Route::resource('crud','CrudController');

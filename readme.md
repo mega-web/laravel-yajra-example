@@ -48,9 +48,9 @@ $ php artisan db:seed
 
 
 
-            if you use some sample code and see The package namespace was updated from Yajra\Datatables to Yajra\DataTables.
-            notice that from version 8 The package namespace was updated from Yajra\Datatables to Yajra\DataTables.
-            so replace all "Datatables" with 'DataTables"
+    if you use some sample code and see The package namespace was updated from Yajra\Datatables to Yajra\DataTables.
+    notice that from version 8 The package namespace was updated from Yajra\Datatables to Yajra\DataTables.
+    so replace all "Datatables" with 'DataTables"
             
             
             
@@ -63,7 +63,7 @@ open-sourced software licensed under the [MIT license](http://opensource.org/lic
 
 
 
- [visit our website](http://iranmegaweb.com).
+ [visit our website](http://megaweb.ir).
 
 
 
@@ -74,5 +74,17 @@ open-sourced software licensed under the [MIT license](http://opensource.org/lic
             
 
             
+            sudo chmod -R 777 bootstrap/cache storage
             
+            
+            
+            chmod -R gu+w storage
+            
+            chmod -R guo+w storage
+            
+            
+            chmod -R 777 storage
+            
+            
+            php artisan cache:clear
             
